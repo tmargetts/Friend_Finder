@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Friend Finder Survey</title>
+
+    <!-- Link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Compiled and minified Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+ </head>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 z-depth-5 mainpanel">
+                    <div id="mainpanel-content">
+                        <h1>Survey Questions</h1>
+                    <div class="divider"></div>
+ 
+                    <h3>About You</h3>
+ 
+                <div class="input-field col s6">
+                    <h5><i class="far fa-user"></i> Name (Required)</h5>
+                    <input type="text" class="validate" placeholder="Your Name Here" id="userName">
+                </div>
+ 
+                <div class="input-field col s6">
+                    <h5><i class="far fa-image"></i> Link to Photo Image (Required)</h5>
+                    <input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto">
+                </div>
+ 
+ <!-- Survey Questions -->
+                <div class="input-field col s12">
+                    <h3>Question 1</h3>
+                    <h5>You prefer to find friends online.</h5>
+                    <select id="question1">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 2</h3>
+                    <h5>When someone shares an idea, you can steal it, and make it better.</h5>
+                    <select id="question2">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 3</h3>
+                    <h5>You prefer listening to the song "This Will Be" by Natalie Cole while searching for a mate online.</h5>
+                    <select id="question3">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 4</h3>
+                    <h5>You prefer Alibaba over Amazon.</h5>
+                    <select id="question4">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 5</h3>
+                    <h5>You prefer Microsoft over Apple.</h5>
+                    <select id="question5">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 6</h3>
+                    <h5>You believe the Democratic People's Republic of Korea will eventually bring destruction to the inferior rodent nation of the United States, but Dennis Rodman is cool.</h5>
+                    <select id="question6">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 7</h3>
+                    <h5>You believe you can take what you want, and people who refuse to give you what you want are punks.</h5>
+                    <select id="question7">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 8</h3>
+                    <h5>You prefer to finish your setences with "yeah brother".</h5>
+                    <select id="question8">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 9</h3>
+                    <h5>You prefer to watch the stock market channel all the time because you suspect the anchorman of being an evil leprechaun. And he can bullshit everybody else but he ain't fooling you.</h5>
+                    <select id="question9">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+                <div class="input-field col s12">
+                    <h3>Question 10</h3>
+                    <h5>You prefer to chill, smoke, and watch movies.</h5>
+                    <select id="question10">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+ 
+ <!-- Survey Submit Button -->
+            <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action" id="submitButton">Submit <i class="fas fa-file-signature"></i></button>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red">
+                <i class="fas fa-bars"></i>
+                </a>
+                <ul>
+                <li><a class="btn-floating blue darken-3" href="/api/friends"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="btn-floating purple darken-4"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+ </main>
+
+   <!-- Modal Dialog Displaying Closest Friend Match -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Your New Best Friend</h4>
+            <div class="divider"></div>
+                <h5 id="friendMatch"></h5>
+                <img id="friendMatchImage" class="materialboxed" width="650" src="">
+        </div>
+            <div class="modal-footer">
+            <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Find Another Friend!</a>
+        </div>
+    </div>
+ 
+ <script type="text/javascript">
+ 
+ $(document).ready(function() {
+ $('select').material_select();
+ $('.modal').modal({
+        dismissible: false, // Modal can be dismissed by clicking outside of the modal
+        opacity: .5, // Opacity of modal background
+        inDuration: 300, // Transition in duration
+        outDuration: 200, // Transition out duration
+        startingTop: '4%', // Starting top style attribute
+        endingTop: '10%' // Ending top style attribute
+    });
+ });
+ // Activate submit button
+ $('#submitButton').on('click', function(event) {
+    event.preventDefault();
+ // Gather user inputs
+    var userInput = {
+    name: $('#userName').val().trim(),
+    photo: $('#userPhoto').val().trim(),
+    scores:[
+    $('#question1').val().trim(),
+    $('#question2').val().trim(),
+    $('#question3').val().trim(),
+    $('#question4').val().trim(),
+    $('#question5').val().trim(),
+    $('#question6').val().trim(),
+    $('#question7').val().trim(),
+    $('#question8').val().trim(),
+    $('#question9').val().trim(),
+    $('#question10').val().trim()
+    ]
+ };
+ // console.log('userInput = ' + JSON.stringify(userInput));
+ // Add user inputs to friends list
+ $.post('/api/friends', userInput)
+    .done(function(data) {
+ // console.log('response = ' + JSON.stringify(data));
+ // Set the name and image values of friend match
+    $('#friendMatch').html(data.friendName);
+    $("#friendMatchImage").attr("src", data.friendPic);
+ // Pop open the modal dialog
+    $('#modal1').modal('open');
+    });
+ });
+ </script>
+ </body>
+</html>
