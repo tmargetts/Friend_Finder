@@ -15,7 +15,9 @@ Install:
 If you would like to install it to your machine, see below, and follow these simple commands in your terminal.
 
 git clone git@github.com:tmargetts/Friend_Finder.git
+
 cd Friend_Finder
+
 npm install
 
 Run it Locally:
