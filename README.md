@@ -9,7 +9,7 @@ Friend_Finder was built using Node.js and an Express server.
 
 Check out Friend_Finder below where its deployed on Heroku.
 
-[Friend_Finder] (https://limitless-cove-76297.herokuapp.com/)
+[Friend_Finder](https://limitless-cove-76297.herokuapp.com/)
 
 ### Install:
 
